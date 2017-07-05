@@ -9,7 +9,9 @@ import { renderable, jsxFactory } from 'esri/widgets/support/widget';
 import domClass = require('dojo/dom-class');
 import query = require('dojo/query');
 
+// rename node_modules/chart.js to node_modules/chartjs to make this work
 import Chart = require('chartjs');
+
 import ChartData from './../utils/ChartData';
 
 const CSS = {
