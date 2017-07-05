@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no" />
+  <title>Samen Ondernemen Dag</title>
+
+  <!-- Calcite Maps Bootstrap -->
+  <link rel="stylesheet" href="https://esri.github.io/calcite-maps/dist/css/calcite-maps-bootstrap.min-v0.3.css">
+
+  <!-- Calcite Maps -->
+  <link rel="stylesheet" href="https://esri.github.io/calcite-maps/dist/css/calcite-maps-arcgis-4.x.min-v0.3.css">
+
+  <!-- ArcGIS JavaScript API -->
+  <link rel="stylesheet" href="https://js.arcgis.com/4.3/esri/css/main.css">
+
+  <link rel="stylesheet" href="css/main.css">
+  
+  <script src="dojoConfig.js"></script>
+  
+  <script src="https://js.arcgis.com/4.3/"></script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+  <script>
+    require(["calcite-maps", "app/main"]);
+  </script>
+</body>
+</html>

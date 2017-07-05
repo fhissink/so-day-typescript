@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd"
+    },
+    "include": [
+        "widgets/**/*",
+        "typings.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

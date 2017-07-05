@@ -1,0 +1,17 @@
+{
+  "name": "02-ts-create-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fons Hissink <fhissink@esri.nl> (https://github.com/fhissink)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/arcgis-js-api": "^4.3.1",
+    "@types/chart.js": "^2.4.6",
+    "dojo-typings": "^1.11.6"
+  }
+}

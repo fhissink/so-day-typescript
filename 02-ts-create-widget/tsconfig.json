@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "watch": true,
+        "module": "amd",
+        "noImplicitAny": false,
+        "target": "es5",
+        "jsx": "react",
+        "reactNamespace": "jsxFactory",
+        "sourceMap": true,
+        "lib": [
+            "es2015",
+            "es2015.iterable",
+            "dom",
+            "scripthost"
+        ],
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "include": [
+        "app/**/*",
+        "typings.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
