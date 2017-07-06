@@ -1,10 +1,8 @@
-// esri
 import Widget = require('esri/widgets/Widget');
 import MapView = require('esri/views/MapView');
-import { subclass, declared, property } from 'esri/core/accessorSupport/decorators';
-import { renderable, jsxFactory } from 'esri/widgets/support/widget';
+// import accessor and widget helper modules
 
-// TODO: import chartjs library
+// import chartjs library
 // rename node_modules/chart.js to node_modules/chartjs to make this work
 
 const CSS = {
@@ -12,8 +10,8 @@ const CSS = {
   chart: 'chart-placeholder'
 };
 
-// Creation of the Chart Widget
-@subclass('esri.widgets.Chart')
+
+// use the correct decorator for a widget
 export default class ChartWidget extends declared(Widget) {
   @property()
   view: MapView;
